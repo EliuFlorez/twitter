@@ -29,17 +29,17 @@ return [
     'connections' => [
 
         'main' => [
-            'consumer_key'        => 'your-client-id',
-            'consumer_secret'     => null,
-            'access_token'        => null,
-            'access_token_secret' => null
+            'consumer_key'        => 'your-app-key',
+            'consumer_secret'     => 'your-app-secret',
+            'access_token'        => 'oauth-token',
+            'access_token_secret' => 'oauth-secret'
         ],
 
         'alternative' => [
-            'consumer_key'        => 'your-client-id',
-            'consumer_secret'     => null,
-            'access_token'        => null,
-            'access_token_secret' => null
+            'consumer_key'        => 'your-app-key',
+            'consumer_secret'     => 'your-app-secret',
+            'access_token'        => 'oauth-token',
+            'access_token_secret' => 'oauth-secret'
         ],
 
     ]
