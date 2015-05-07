@@ -16,19 +16,9 @@
 		"graham-campbell/manager": "~2.0",
 		"abraham/twitteroauth": "0.5.*"
 	},
-	"require-dev": {
-		"graham-campbell/testbench": "~2.0"
-	},
 	"autoload": {
 		"psr-4": {
 			"EliuFlorez\\Twitter\\": "src/"
 		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"EliuFlorez\\Tests\\Twitter\\": "tests/"
-		}
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+	}
 }
